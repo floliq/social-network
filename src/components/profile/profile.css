@@ -1,8 +1,6 @@
 .me {
   display: grid;
-
   grid-template-columns: 3fr 9fr;
-
   grid-gap: 10px;
 }
 
@@ -12,15 +10,12 @@
 
 .posts {
   margin: 10px;
-
   padding: 10px;
-
   border-radius: 10px;
 }
 
 .posts img {
   width: 40px;
-
   margin: 5px;
 }
 
