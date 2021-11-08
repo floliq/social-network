@@ -1,12 +1,13 @@
 import React from "react";
 import "./navbar.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <div className="navbar">
-      <a href="#">Profile</a>
-      <a href="#">Messages</a>
-      <a href="#">Users</a>
+      <Link to="profile">Profile</Link>
+      <Link to="dialogs">Messages</Link>
+      <Link to="users">Users</Link>
     </div>
   );
 }

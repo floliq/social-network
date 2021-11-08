@@ -1,0 +1,50 @@
+.dialogs {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.messages {
+  flex-grow: 1;
+}
+
+.dialog {
+  margin-right: 30px;
+  width: 40%;
+}
+
+input {
+  width: 50%;
+  display: block;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 10px;
+}
+
+.message p {
+  background-color: #94a1eb;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.user {
+  text-align: center;
+  margin: 10px;
+}
+
+.user a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 10px 0;
+}
+
+.user a:hover {
+  background-color: #635fad;
+}

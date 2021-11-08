@@ -11,7 +11,7 @@ function Profile(props) {
 
         <p>{props.name}</p>
       </div>
-      <Posts message={props.message} />
+      <Posts message={props.message} name={props.name} />
     </div>
   );
 }
